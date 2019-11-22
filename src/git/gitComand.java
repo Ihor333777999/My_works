@@ -14,7 +14,10 @@ public class gitComand {
         System.out.println("git checkout tester");
 
         System.out.println("git add.");
-        System.out.println("git commit m- .ad code.");
+        System.out.println("git commit-m .ad code.");
         System.out.println("git push u- origin tester ");
+
+        System.out.println("test");
+        System.out.println();
     }
 }
