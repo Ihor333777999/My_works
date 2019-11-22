@@ -2,7 +2,7 @@ package classes;
 
 import java.util.Scanner;
 
-public class TestingHouse {
+public class HouseTesting {
     public static void main(String[] args) {
         House House1 = new House();
         Scanner input = new Scanner(System.in);
