@@ -1,8 +1,6 @@
+
 package ArrayList;
-
-
 import classes.Item;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,12 +9,12 @@ public class Store {
     String address;
     ArrayList<Item> items = new ArrayList<>();
     int numberItems;
+    double totalSales;
 
     public Store (String name,String address){
         this.name=name;
         this.address=address;
     }
-
 
     public void addItem(Item item){
 this.items.add(item);
@@ -39,10 +37,19 @@ Item item = new Item(name,price);
 this.items.add(item);
 this.numberItems++;
             }
-
-
         }
 
+        public void sellItem(Item name){
+
+        if (name.equals(this.items)){
+            items.remove(name);
+            items.add(totalSales+price);
+        }
+        }
+public void returnItem(Item name){
+        Scanner input = new Scanner(System.in);
+    System.out.println("Enter the price of item");
+}
 
     public void seeInventory(){
         for(Item item: items){

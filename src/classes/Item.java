@@ -1,8 +1,8 @@
 package classes;
 
 public class Item {
-    String name;
-    double price;
+   public String name;
+    public double price;
     int size;
 
     public Item(String name, double price) {
